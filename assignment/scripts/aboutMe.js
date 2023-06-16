@@ -107,8 +107,5 @@ switch (luckyNumber) {
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
- let results = (luckyNumber == 1 ? results = 'First is the worst'
-            :luckyNumber == 2?  results = 'Second is the best'
-            :luckyNumber == 3? results  = 'Third is the one with the polka dot dress'
-            :results = 'Luck is what happens when preparation meets opportunity')
+let results  = adventurous? 'Adventurous are great!': 'How about we stay home?';
 console.log(results);
